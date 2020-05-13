@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1.top {
+  color: red;
+  background-color: darkgreen;
+  font-family: roboto;
+}
+
+h1.bottom {
+  color: magenta;
+  background-color: crimson;
+  font-family: sans-serif;
+}
+
+button {
+  color: blue;
+  background-color: coral;
+  border-style: solid;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 60px;
+  font-size: 20px;
+}
+
+header.behind {
+  background-color: black;
+}
+
+p.DaBruddah {
+  background-color: black;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: deepskyblue;
+  background-color: chocolate;
+  margin-left: 40px;
+  margin-right: 40px;
+}
