@@ -1,28 +1,33 @@
 import React from "react";
 import "../App.css";
-import fun from "../icons/fun.svg";
+import skeleton from "../icons/skeleton.svg";
 import { NavLink } from "react-router-dom";
 
 function About() {
   return (
-    <div>
+    <div className="body">
       <header className="behind">
         <div>
+          <br />
           <h1 className="top">Halloween Costume Recommender</h1>
           <NavLink to="/">
-            <button>home</button>
+            <button>Home</button>
           </NavLink>
-          <NavLink to="/about">
-            <button>about</button>
+          <NavLink to="/About">
+            <button>About</button>
           </NavLink>
           <NavLink to="/costumes">
-            <button>costumes</button>
+            <button>Costumes</button>
           </NavLink>
         </div>
       </header>
-      <h1>About us!</h1>
-      <img src={fun} className="App-logo" alt="logo" />
-      <p className="DaBruddah">Can I get the the "Dah Bruddah"</p>
+      <h1 className="bottom">About Us!</h1>
+      <br />
+      <p>This is the about page where you can learn about the developers.</p>
+
+      <br />
+      <img src={skeleton} className="App-logo" alt="logo" />
+      <br />
       <footer>
         <div>
           Icons made by{" "}
@@ -38,6 +43,7 @@ function About() {
             www.flaticon.com
           </a>
         </div>
+        <br />
       </footer>
     </div>
   );

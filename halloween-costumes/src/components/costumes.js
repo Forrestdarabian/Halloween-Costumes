@@ -1,28 +1,48 @@
 import React from "react";
 import "../App.css";
-import skeleton from "../icons/skeleton.svg";
+import fun from "../icons/fun.svg";
 import { NavLink } from "react-router-dom";
 
 function Costumes() {
   return (
-    <div>
+    <div className="body">
       <header className="behind">
         <div>
+          <br />
           <h1 className="top">Halloween Costume Recommender</h1>
           <NavLink to="/">
-            <button>home</button>
+            <button>Home</button>
           </NavLink>
-          <NavLink to="/about">
-            <button>about</button>
+          <NavLink to="/About">
+            <button>About</button>
           </NavLink>
           <NavLink to="/costumes">
-            <button>costumes</button>
+            <button>Costumes</button>
           </NavLink>
         </div>
       </header>
-      <h1>Costumes R' Us!</h1>
-      <img src={skeleton} className="App-logo" alt="logo" />
-      <p className="DaBruddah">Here are some costumes</p>
+      <h1 className="bottom">Costumes</h1>
+      <br />
+      <p>
+        Here you can find some costume ideas.
+        <br /> Click a costume style below.
+      </p>
+      <NavLink to="/scary">
+        <button>Scary</button>
+      </NavLink>
+      <NavLink to="/funny">
+        <button>Funny</button>
+      </NavLink>
+      <NavLink to="/group">
+        <button>Group</button>
+      </NavLink>
+      <NavLink to="/cool">
+        <button>Cool</button>
+      </NavLink>
+
+      <br />
+      <img src={fun} className="App-logo" alt="logo" />
+      <br />
       <footer>
         <div>
           Icons made by{" "}
@@ -38,6 +58,7 @@ function Costumes() {
             www.flaticon.com
           </a>
         </div>
+        <br />
       </footer>
     </div>
   );
