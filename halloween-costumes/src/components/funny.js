@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css";
-import monster from "../icons/monster.svg";
 import { NavLink } from "react-router-dom";
+import face from "../icons/face.svg";
 
-function Home() {
+function Funny() {
   return (
     <div className="body">
       <header className="behind">
@@ -21,11 +21,23 @@ function Home() {
           </NavLink>
         </div>
       </header>
-      <h1 className="bottom">Welcome Home!</h1>
-      <h6>This is where everything starts</h6>
-      <p>This is the home page, you will be able to see your dashboard here.</p>
+      <h1 className="bottom">Funny Costumes</h1>
+
+      <p>These costumes are funny.</p>
+      <NavLink to="/scary">
+        <button>Scary</button>
+      </NavLink>
+      <NavLink to="/funny">
+        <button>Funny</button>
+      </NavLink>
+      <NavLink to="/group">
+        <button>Group</button>
+      </NavLink>
+      <NavLink to="/cool">
+        <button>Cool</button>
+      </NavLink>
       <br />
-      <img src={monster} className="App-logo" alt="logo" />
+      <img src={face} className="App-logo" alt="logo" />
       <br />
       <footer>
         <div>
@@ -48,4 +60,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Funny;
