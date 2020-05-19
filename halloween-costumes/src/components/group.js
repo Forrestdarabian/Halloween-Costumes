@@ -42,19 +42,25 @@ function Group() {
       <div className="pictures">
         <img src={scoob} className="App-logo" alt="logo" />
         <h3 className="costume">Mystery Inc.</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Celebrate your love for Scooby-Doo with your friends and dress up as
+          Mystery Incorporated!
+        </p>
         <img src={spice} className="App-logo" alt="logo" />
         <h3 className="costume">Spice Girls</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Throw it back this Halloween and dress up as the Spice Girls with your
+          girls (or boys!)
+        </p>
         <img src={tmnt} className="App-logo" alt="logo" />
         <h3 className="costume">Teenage Mutant Ninja Turtles</h3>
-        <p>This costume is awesome!</p>
+        <p>Green face paint? Check. Or maybe just a mask...</p>
         <img src={juice} className="App-logo" alt="logo" />
         <h3 className="costume">BeetleJuice Couple</h3>
-        <p>This costume is awesome!</p>
+        <p>Embrace the dead with your lover this October!</p>
         <img src={smurfs} className="App-logo" alt="logo" />
         <h3 className="costume">Smurfs</h3>
-        <p>This costume is awesome!</p>
+        <p>Who doesn't love those little blue people?</p>
       </div>
       <br />
       <br />

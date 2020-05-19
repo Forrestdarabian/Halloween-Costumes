@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import fun from "../icons/fun.svg";
+import ghost from "../icons/ghost.svg";
 import { NavLink } from "react-router-dom";
 
 function Costumes() {
@@ -41,7 +41,7 @@ function Costumes() {
         <button>Cool</button>
       </NavLink>
       <br />
-      <img src={fun} className="App-logo" alt="logo" />
+      <img src={ghost} className="App-logo" alt="logo" />
       <br />
       <footer className="footer pt-80 pt-xs-60">
         <div className="footer-container">
