@@ -21,29 +21,63 @@ function Home() {
           </NavLink>
         </div>
       </header>
-      <h1 className="bottom">Welcome Home!</h1>
-      <h6>This is where everything starts</h6>
-      <p>This is the home page, you will be able to see your dashboard here.</p>
+      <div className="bottom">
+        <h1>Welcome Home!</h1>
+        <h3>Read below for information about our site.</h3>
+      </div>
       <br />
+      <br />
+      <br />
+      <p>
+        Have you ever had trouble figuring out what costume to wear this
+        halloween? Well we've got you covered! With Halloween Costume
+        Recommender you will have no trouble figuring out what to wear this
+        October! Use the buttons above to get started.
+      </p>
       <img src={monster} className="App-logo" alt="logo" />
       <br />
-      <footer>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/smalllikeart"
-            title="smalllikeart"
-          >
-            smalllikeart
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            {" "}
-            www.flaticon.com
-          </a>
+      <footer className="footer pt-80 pt-xs-60">
+        <div className="footer-container">
+          <h1>Halloween Costume Recommender</h1>
+          <div className="copyright">
+            <p>
+              © 2020
+              <a>
+                <b> Forrest Darabian and Grant Walton </b>
+              </a>
+              All Rights Reserved.
+            </p>
+          </div>
+          <div>
+            Icons made by{" "}
+            <a
+              href="https://www.flaticon.com/authors/smalllikeart"
+              title="smalllikeart"
+            >
+              smalllikeart
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
+          <div className="left">
+            <h4 className="something">Contact / Links</h4>
+            <li>
+              {" "}
+              <a href="mailto:forrestdarabian@gmail.com">
+                <i className="ion-ios-email fa-icons"></i>
+                Contact Me
+              </a>{" "}
+            </li>
+            <li>
+              <a href="https://www.forrestdarabian.com/">
+                <i className="fa-angle-double-right"></i>Developers Site
+              </a>
+            </li>
+          </div>
         </div>
-        <br />
-      </footer>
+      </footer>{" "}
     </div>
   );
 }

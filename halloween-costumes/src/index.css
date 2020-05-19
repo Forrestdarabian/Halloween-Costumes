@@ -5,6 +5,7 @@ body {
   font-family: "Acme", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -23,12 +24,18 @@ h1.top {
   border-bottom-right-radius: 10px;
 }
 
-h1.bottom {
+div.bottom {
   color: rgb(250, 151, 22);
   background-color: rgb(251, 251, 251);
   margin-left: 350px;
   margin-right: 350px;
   border-radius: 60px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 button {
@@ -54,15 +61,74 @@ p {
   color: rgb(0, 0, 0);
   background-color: rgb(151, 6, 177);
   padding: 5px;
-  border-radius: 45px;
-  margin-left: 200px;
-  margin-right: 200px;
+  border-radius: 10px;
+  margin-left: 325px;
+  margin-right: 325px;
 }
 
 div.body {
   background-color: black;
 }
 
-footer {
-  color: white;
+div.footer-container {
+  background-color: rgb(151, 6, 177);
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 325px;
+  margin-right: 325px;
+  margin-bottom: 20px;
+}
+
+div.footer-container p {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 950px) {
+  h1.top {
+    /* background-color: rgb(255, 255, 255); */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h1.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  p {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div.bottom {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  div.footer-container {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+h1.costume {
+  color: orange;
+}
+
+h3.costume {
+  color: orange;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+div.pictures {
+  padding: 20px;
 }
