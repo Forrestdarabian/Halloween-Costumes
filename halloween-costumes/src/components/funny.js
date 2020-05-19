@@ -42,19 +42,22 @@ function Funny() {
       <div className="pictures">
         <img src={whoopie} className="App-logo" alt="logo" />
         <h3 className="costume">Whoopie Cushion</h3>
-        <p>This costume is awesome!</p>
+        <p>Who doesn't love an original Whoopie Cushion costume?</p>
         <img src={jae} className="App-logo" alt="logo" />
         <h3 className="costume">Jake from State Farm</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Over the past couple years, the "Jake from State Farm" commercial has
+          been making people crack-up laughing! Why not be him this year?
+        </p>
         <img src={cereal} className="App-logo" alt="logo" />
         <h3 className="costume">Cereal Box</h3>
-        <p>This costume is awesome!</p>
+        <p>The possibilities are almost endless with this one! Go crazy!</p>
         <img src={queen} className="App-logo" alt="logo" />
         <h3 className="costume">The Queen</h3>
-        <p>This costume is awesome!</p>
+        <p>Yes, we had to include the Queen here...</p>
         <img src={emoji} className="App-logo" alt="logo" />
         <h3 className="costume">Emoji</h3>
-        <p>This costume is awesome!</p>
+        <p>Cringe? Maybe a little.</p>
       </div>
       <br />
       <br />

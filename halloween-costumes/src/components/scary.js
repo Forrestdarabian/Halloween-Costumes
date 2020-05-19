@@ -42,19 +42,25 @@ function Scary() {
       <div className="pictures">
         <img src={zombie} className="App-logo" alt="logo" />
         <h3 className="costume">Zombie</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Even though the Walking Dead made zombies a little overrated, you can
+          always get creative with a super scary Zombie costume!{" "}
+        </p>
         <img src={werewolf} className="App-logo" alt="logo" />
         <h3 className="costume">Werewolf</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Do you hear howling? Well, you will with a super creepy Werewolf
+          ostume this year!
+        </p>
         <img src={clown} className="App-logo" alt="logo" />
         <h3 className="costume">Clown</h3>
-        <p>This costume is awesome!</p>
+        <p>Yes, they float.</p>
         <img src={vampire} className="App-logo" alt="logo" />
         <h3 className="costume">Vampire</h3>
-        <p>This costume is awesome!</p>
+        <p>I VANT TO SUCK YOUR...Blood</p>
         <img src={wtich} className="App-logo" alt="logo" />
         <h3 className="costume">Witch</h3>
-        <p>This costume is awesome!</p>
+        <p>Dress up a super creepy (or cute) Witch this Halloween!</p>
       </div>
       <br />
       <br />

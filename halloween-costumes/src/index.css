@@ -60,10 +60,11 @@ p.DaBruddah {
 p {
   color: rgb(0, 0, 0);
   background-color: rgb(151, 6, 177);
-  padding: 5px;
+  padding: 30px;
   border-radius: 10px;
   margin-left: 325px;
   margin-right: 325px;
+  font-size: 20px;
 }
 
 div.body {
@@ -122,11 +123,6 @@ h1.costume {
 
 h3.costume {
   color: orange;
-}
-
-img {
-  width: 200px;
-  height: 200px;
 }
 
 div.pictures {

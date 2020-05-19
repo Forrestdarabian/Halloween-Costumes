@@ -9,8 +9,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-    margin: 60px;
+    animation: App-logo-spin infinite 5s linear;
+    margin: 0px;
   }
 }
 
@@ -30,13 +30,13 @@
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0) translateX(0);
-    opacity: 1;
+  0% {
+    left: 0;
   }
-  /* ... */
-  to {
-    transform: translateX(0px);
-    opacity: 0;
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
   }
 }

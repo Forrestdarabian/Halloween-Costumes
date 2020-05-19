@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import skeleton from "../icons/skeleton.svg";
+import demon from "../icons/demon.svg";
 import { NavLink } from "react-router-dom";
 
 function About() {
@@ -34,7 +34,7 @@ function About() {
         the night of the 31st!
       </p>
       <br />
-      <img src={skeleton} className="App-logo" alt="logo" />
+      <img src={demon} className="App-logo" alt="logo" />
       <br />
       <footer className="footer pt-80 pt-xs-60">
         <div className="footer-container">

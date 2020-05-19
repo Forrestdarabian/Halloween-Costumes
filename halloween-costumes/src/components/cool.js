@@ -42,19 +42,31 @@ function Cool() {
       <div className="pictures">
         <img src={hero} className="App-logo" alt="logo" />
         <h3 className="costume">Superhero</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Superheroes are always a great costume idea and have been popular for
+          decades!
+        </p>
         <img src={piratre} className="App-logo" alt="logo" />
         <h3 className="costume">Pirate</h3>
-        <p>This costume is awesome!</p>
+        <p>A Pirate costume is something you can totally get creative with!</p>
         <img src={edward} className="App-logo" alt="logo" />
         <h3 className="costume">Edward Scissorhands</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          A true classic never goes out of style! Edward Scissorhands is always
+          a fun costume choice!
+        </p>
         <img src={killbill} className="App-logo" alt="logo" />
         <h3 className="costume">Kill Bill</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Get some revenge this Halloween and dress up as the infamous Bride
+          from the Kill Bill movies!
+        </p>
         <img src={hotdog} className="App-logo" alt="logo" />
         <h3 className="costume">Hot Dog</h3>
-        <p>This costume is awesome!</p>
+        <p>
+          Yep this one is pretty funny, but we thought we'd include it in the
+          "Cool" category!
+        </p>
       </div>
       <br />
       <br />
