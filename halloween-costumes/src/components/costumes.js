@@ -21,12 +21,13 @@ function Costumes() {
           </NavLink>
         </div>
       </header>
-      <h1 className="bottom">Costumes</h1>
+      <div className="bottom">
+        <h1>Costumes!</h1>
+        <h3>Choose a costume category below</h3>
+      </div>
       <br />
-      <p>
-        Here you can find some costume ideas.
-        <br /> Click a costume style below.
-      </p>
+      <br />
+      <br />
       <NavLink to="/scary">
         <button>Scary</button>
       </NavLink>
@@ -39,27 +40,51 @@ function Costumes() {
       <NavLink to="/cool">
         <button>Cool</button>
       </NavLink>
-
       <br />
       <img src={fun} className="App-logo" alt="logo" />
       <br />
-      <footer>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/smalllikeart"
-            title="smalllikeart"
-          >
-            smalllikeart
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            {" "}
-            www.flaticon.com
-          </a>
+      <footer className="footer pt-80 pt-xs-60">
+        <div className="footer-container">
+          <h1>Halloween Costume Recommender</h1>
+          <div className="copyright">
+            <p>
+              © 2020
+              <a>
+                <b> Forrest Darabian and Grant Walton </b>
+              </a>
+              All Rights Reserved.
+            </p>
+          </div>
+          <div>
+            Icons made by{" "}
+            <a
+              href="https://www.flaticon.com/authors/smalllikeart"
+              title="smalllikeart"
+            >
+              smalllikeart
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
+          <div className="left">
+            <h4 className="something">Contact / Links</h4>
+            <li>
+              {" "}
+              <a href="mailto:forrestdarabian@gmail.com">
+                <i className="ion-ios-email fa-icons"></i>
+                Contact Me
+              </a>{" "}
+            </li>
+            <li>
+              <a href="https://www.forrestdarabian.com/">
+                <i className="fa-angle-double-right"></i>Developers Site
+              </a>
+            </li>
+          </div>
         </div>
-        <br />
-      </footer>
+      </footer>{" "}
     </div>
   );
 }

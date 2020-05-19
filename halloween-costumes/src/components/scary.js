@@ -2,6 +2,11 @@ import React from "react";
 import "../App.css";
 import demon from "../icons/demon.svg";
 import { NavLink } from "react-router-dom";
+import zombie from "../costumes/zombie.jpg";
+import wtich from "../costumes/wtich.jpg";
+import werewolf from "../costumes/werewolfe.jpg";
+import vampire from "../costumes/vampire.jpg";
+import clown from "../costumes/clown.jpg";
 
 function Scary() {
   return (
@@ -21,10 +26,7 @@ function Scary() {
           </NavLink>
         </div>
       </header>
-      <h1 className="bottom">Scary Costumes</h1>
-
-      <p>These costumes are scary.</p>
-
+      <h1 className="costume">Scary Costumes</h1>
       <NavLink to="/scary">
         <button>Scary</button>
       </NavLink>
@@ -37,26 +39,67 @@ function Scary() {
       <NavLink to="/cool">
         <button>Cool</button>
       </NavLink>
+      <div className="pictures">
+        <img src={zombie} className="App-logo" alt="logo" />
+        <h3 className="costume">Zombie</h3>
+        <p>This costume is awesome!</p>
+        <img src={werewolf} className="App-logo" alt="logo" />
+        <h3 className="costume">Werewolf</h3>
+        <p>This costume is awesome!</p>
+        <img src={clown} className="App-logo" alt="logo" />
+        <h3 className="costume">Clown</h3>
+        <p>This costume is awesome!</p>
+        <img src={vampire} className="App-logo" alt="logo" />
+        <h3 className="costume">Vampire</h3>
+        <p>This costume is awesome!</p>
+        <img src={wtich} className="App-logo" alt="logo" />
+        <h3 className="costume">Witch</h3>
+        <p>This costume is awesome!</p>
+      </div>
       <br />
-      <img src={demon} className="App-logo" alt="logo" />
       <br />
-      <footer>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/smalllikeart"
-            title="smalllikeart"
-          >
-            smalllikeart
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            {" "}
-            www.flaticon.com
-          </a>
+      <footer className="footer pt-80 pt-xs-60">
+        <div className="footer-container">
+          <h1>Halloween Costume Recommender</h1>
+          <div className="copyright">
+            <p>
+              © 2020
+              <a>
+                <b> Forrest Darabian and Grant Walton </b>
+              </a>
+              All Rights Reserved.
+            </p>
+          </div>
+          <div>
+            Icons made by{" "}
+            <a
+              href="https://www.flaticon.com/authors/smalllikeart"
+              title="smalllikeart"
+            >
+              smalllikeart
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
+          <div className="left">
+            <h4 className="something">Contact / Links</h4>
+            <li>
+              {" "}
+              <a href="mailto:forrestdarabian@gmail.com">
+                <i className="ion-ios-email fa-icons"></i>
+                Contact Me
+              </a>{" "}
+            </li>
+            <li>
+              <a href="https://www.forrestdarabian.com/">
+                <i className="fa-angle-double-right"></i>Developers Site
+              </a>
+            </li>
+          </div>
         </div>
-        <br />
-      </footer>
+      </footer>{" "}
     </div>
   );
 }

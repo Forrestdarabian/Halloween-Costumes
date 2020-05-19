@@ -1,0 +1,38 @@
+Scary
+zombie
+Witch
+Werewolf
+vampire
+Clown
+
+
+
+Funny
+The Queen and Prinec philip
+Whoopie cushion
+Cereal box
+Emoji
+Jake from state farm
+
+Cool
+pirate
+SUPERHERO
+edward scissorhands
+Food (hot dog)
+Kill Bill
+
+
+Group 
+spice girls
+scooby doo
+TMNT
+Beetljuice adam and barbara
+smurfs
+
+
+Scary           Funny               Cool               Group
+zombie          pirate             superhero          scooby doo
+vampire
+werewold                The queen                                     TMNT
+                                                      spice girls
+
